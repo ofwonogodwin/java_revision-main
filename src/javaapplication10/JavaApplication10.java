@@ -60,6 +60,10 @@ public class JavaApplication10 {
         String name = myObj.nextLine();
         System.out.println("Welcome "+name);
         
+        System.out.println("Enter your age ");
+        int age = myObj.nextInt();
+        System.out.println(name+" you are "+age+" years old");
+        
         
     }
     
