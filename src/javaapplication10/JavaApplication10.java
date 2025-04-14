@@ -8,6 +8,7 @@ package javaapplication10;
  *
  * @author godwin-ofwono
  */
+import java.util.Scanner;
 public class JavaApplication10 {
 
     /**
@@ -53,6 +54,11 @@ public class JavaApplication10 {
         else{
             System.out.println("Invalid Mark");
         }
+        // Inputs.
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Enter Your Name");
+        String name = myObj.nextLine();
+        System.out.println("Welcome "+name);
         
         
     }
